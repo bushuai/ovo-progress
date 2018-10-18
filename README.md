@@ -4,9 +4,26 @@
 
 ## TODO
 
+- [ ] use rollup
+- [ ] vue plugin
+
 ## Installation
 
+```bash
+# npm
+$ npm i ovo-progress
+
+# yarn
+$ yarn add ovo-progress
+```
+
 ## Usage
+
+```javascript
+ import Progress from 'ovo-progress'
+
+ new Progress({ /* options */ })
+```
 
 ## Options
 

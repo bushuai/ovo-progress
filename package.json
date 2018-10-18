@@ -1,6 +1,6 @@
 {
   "name": "ovo-progress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🌈 Page scroll with progress",
   "main": "dist/scroll-progress.js",
   "keywords": [

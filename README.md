@@ -6,6 +6,7 @@
 
 - [ ] use rollup
 - [ ] vue plugin
+- [ ] react component
 
 ## Installation
 

@@ -3,14 +3,20 @@
   "version": "1.0.2",
   "description": "🌈 Page scroll with progress",
   "main": "dist/scroll-progress.cjs.js",
+  "author": "bushuai <ibushuai@gmail.com>",
   "keywords": [
     "progress",
     "progress bar",
     "scrolling",
     "page scroll"
   ],
-  "author": "bushuai <ibushuai@gmail.com>",
-  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/bushuai/ovo-progress/issues"
+  },
+  "homepage": "https://github.com/bushuai/ovo-progress",
   "scripts": {
     "build": "rollup -c rollup.config.js"
   },
@@ -20,5 +26,6 @@
     "rollup": "^0.66.6",
     "rollup-plugin-babel": "^4.0.3",
     "rollup-plugin-node-resolve": "^3.4.0"
-  }
+  },
+  "license": "MIT"
 }

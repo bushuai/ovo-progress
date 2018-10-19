@@ -1,6 +1,6 @@
 {
   "name": "ovo-progress",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "🌈 Page scroll with progress",
   "main": "dist/scroll-progress.cjs.js",
   "author": "bushuai <ibushuai@gmail.com>",

@@ -1,25 +1,24 @@
 {
   "name": "ovo-progress",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🌈 Page scroll with progress",
-  "main": "dist/scroll-progress.js",
+  "main": "dist/scroll-progress.cjs.js",
   "keywords": [
     "progress",
     "progress bar",
     "scrolling",
-    "page scrolling"
+    "page scroll"
   ],
   "author": "bushuai <ibushuai@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "rollup -c rollup.config.js"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
-    "babel-loader": "^8.0.4",
-    "clean-webpack-plugin": "^0.1.19",
-    "webpack": "^4.21.0",
-    "webpack-cli": "^3.1.2"
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-node-resolve": "^3.4.0"
   }
 }

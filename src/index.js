@@ -1,11 +1,11 @@
 class ScrollProgress {
-  constructor (options) {
-    this.options = {
-      height: '3px',
-      color: '#2980B9',
-      onReachBottom: () => {},
-      onReachTop: () => {}
-    }
+  constructor (options = {
+    height: '3px',
+    color: '#2980B9',
+    onReachBottom: () => {},
+    onReachTop: () => {}
+  }) {
+    this.options = options
     this.generate()
     this.listen()
   }
@@ -18,6 +18,7 @@ class ScrollProgress {
     this.el.style.height = height
     this.el.style.background = color
     this.el.style.borderRadius = '2px'
+    this.el.style.top = 0
     this.el.style.top = 0
     this.el.style.left = 0
     document.body.appendChild(this.el)
